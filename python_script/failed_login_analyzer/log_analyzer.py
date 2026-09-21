@@ -1,6 +1,6 @@
 import re
 
-file_handler = open("D:/Cyber Security Portfolio/python_script/mock_scripts/mock_auth.txt","rt")
+file_handler = open("mock_auth_data.txt","rt")
 
 ip_pattern = r"\b(?:\d{1,3}\.){3}\d{1,3}\b"
 
@@ -62,7 +62,7 @@ for line1 in file_handler:
 
         match_user = re.search(username_pattern,line1)  # finding user name who is targeted and grouping them with their counts
 
-        if match:
+        if match_user:
             username = match_user.group(1)
 
             if username in username_counts:
