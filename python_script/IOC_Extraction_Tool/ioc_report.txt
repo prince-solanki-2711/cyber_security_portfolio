@@ -1,0 +1,62 @@
+Found
+===========================================================
+                 IOC EXTRACTION TOOL
+===========================================================
+
+===========================================================
+IP Addresses
+===========================================================
+172.16.0.12
+198.51.100.42
+203.0.113.27
+172.16.0.25
+10.0.0.24
+192.168.1.20
+10.0.0.15
+10.0.1.8
+10.0.2.41
+192.0.2.77
+203.0.113.10
+198.51.100.14
+192.0.2.18
+192.168.1.35
+===========================================================
+Total IP : 14
+
+===========================================================
+URL Addresses
+===========================================================
+https://files.example.test/document.pdf
+https://download.example.test/payload.zip
+http://portal.example.test/login
+https://updates.example.test/security_patch.exe
+http://cdn.example.test/assets/setup.exe
+http://updates.example.test/update.exe
+===========================================================
+Total URL : 6
+
+===========================================================
+Email Addresses
+===========================================================
+user01@example.test
+helpdesk@example.test
+alert@example.test
+security@example.test
+admin@example.test
+soc@example.test
+===========================================================
+Total Email : 6
+
+===========================================================
+File Hashes
+===========================================================
+SHA256 -> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+MD5 -> 098f6bcd4621d373cade4e832627b4f6
+SHA256 -> cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+MD5 -> d41d8cd98f00b204e9800998ecf8427e
+SHA256 -> bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+MD5 -> 5d41402abc4b2a76b9719d911017c592
+SHA1 -> da39a3ee5e6b4b0d3255bfef95601890afd80709
+SHA1 -> 2fd4e1c67a2d28fced849ee1bb76e7391b93eb12
+===========================================================
+Total Hash files : 8

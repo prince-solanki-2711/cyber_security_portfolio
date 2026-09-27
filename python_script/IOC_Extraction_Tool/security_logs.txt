@@ -1,0 +1,500 @@
+2026-09-20 08:05:47 INFO Host WS-001 completed scheduled scan
+2026-09-20 08:12:26 ALERT Outbound connection blocked to 203.0.113.27
+2026-09-20 08:14:40 INFO File access recorded for user service_account
+2026-09-20 08:15:52 ALERT Suspicious file download URL=http://updates.example.test/update.exe HASH=d41d8cd98f00b204e9800998ecf8427e
+2026-09-20 08:19:48 INFO DNS request for updates.example.test from 10.0.0.24
+2026-09-20 08:21:59 ALERT Suspicious connection detected from 192.0.2.18
+2026-09-20 08:27:27 INFO User user02 logged in successfully from 10.0.2.41
+2026-09-20 08:33:53 ALERT Suspicious file download URL=https://files.example.test/document.pdf HASH=5d41402abc4b2a76b9719d911017c592
+2026-09-20 08:38:02 INFO Web request from 192.168.1.20 to updates.example.test
+2026-09-20 08:44:50 WARNING Failed login for user service_account from 172.16.0.12
+2026-09-20 08:48:04 ALERT Outbound connection blocked to 203.0.113.27
+2026-09-20 08:50:14 ALERT File download detected from http://updates.example.test/update.exe
+2026-09-20 08:51:21 ALERT Malware hash detected SHA1: 2fd4e1c67a2d28fced849ee1bb76e7391b93eb12
+2026-09-20 08:54:44 ALERT Malware hash detected MD5: d41d8cd98f00b204e9800998ecf8427e
+2026-09-20 08:57:19 INFO DNS request for mail.example.test from 172.16.0.25
+2026-09-20 09:02:13 INFO Host SRV-01 completed scheduled scan
+2026-09-20 09:03:13 ALERT Suspicious file download URL=http://cdn.example.test/assets/setup.exe HASH=d41d8cd98f00b204e9800998ecf8427e
+2026-09-20 09:08:49 ALERT Malware hash detected MD5: d41d8cd98f00b204e9800998ecf8427e
+2026-09-20 09:10:47 INFO Email notification sent to admin@example.test
+2026-09-20 09:16:45 ALERT Suspicious connection detected from 198.51.100.14
+2026-09-20 09:17:45 ALERT Suspicious connection detected from 203.0.113.10
+2026-09-20 09:21:19 ALERT Outbound connection blocked to 198.51.100.42
+2026-09-20 09:27:04 ALERT Malware hash detected MD5: 5d41402abc4b2a76b9719d911017c592
+2026-09-20 09:30:33 ALERT Malware hash detected MD5: 5d41402abc4b2a76b9719d911017c592
+2026-09-20 09:36:36 ALERT Outbound connection blocked to 192.0.2.77
+2026-09-20 09:42:45 INFO Email notification sent to alert@example.test
+2026-09-20 09:48:30 WARNING Failed login for user user02 from 10.0.2.41
+2026-09-20 09:50:13 ALERT Suspicious email received from user01@example.test
+2026-09-20 09:52:51 ALERT Suspicious file download URL=https://download.example.test/payload.zip HASH=d41d8cd98f00b204e9800998ecf8427e
+2026-09-20 09:55:57 INFO DNS request for cdn.example.test from 10.0.0.15
+2026-09-20 09:58:58 ALERT Malware hash detected SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+2026-09-20 09:59:51 WARNING Multiple failed logins detected from 192.168.1.35
+2026-09-20 10:01:59 WARNING PowerShell activity detected on SRV-01 from 172.16.0.25
+2026-09-20 10:03:32 ALERT Outbound connection blocked to 203.0.113.27
+2026-09-20 10:05:58 ALERT Suspicious file download URL=http://portal.example.test/login HASH=098f6bcd4621d373cade4e832627b4f6
+2026-09-20 10:12:40 INFO Web request from 172.16.0.12 to files.example.test
+2026-09-20 10:16:24 ALERT Malware hash detected MD5: 5d41402abc4b2a76b9719d911017c592
+2026-09-20 10:17:54 ALERT Connection from 198.51.100.42 attempted to access updates.example.test
+2026-09-20 10:24:40 INFO DNS request for updates.example.test from 10.0.1.8
+2026-09-20 10:30:21 WARNING Failed login for user service_account from 172.16.0.12
+2026-09-20 10:35:46 INFO Email notification sent to user01@example.test
+2026-09-20 10:39:21 WARNING Authentication failure: source=172.16.0.25 user=user02
+2026-09-20 10:41:49 ALERT Suspicious file download URL=http://updates.example.test/update.exe HASH=d41d8cd98f00b204e9800998ecf8427e
+2026-09-20 10:48:18 INFO Host LAPTOP-07 completed scheduled scan
+2026-09-20 10:53:12 ALERT Outbound connection blocked to 192.0.2.77
+2026-09-20 10:56:26 INFO Host WS-003 completed scheduled scan
+2026-09-20 11:00:28 WARNING Failed login for user user01 from 10.0.0.15
+2026-09-20 11:06:57 ALERT Outbound connection blocked to 192.0.2.18
+2026-09-20 11:13:47 WARNING Failed login for user user02 from 10.0.0.24
+2026-09-20 11:19:27 ALERT Suspicious URL observed: https://updates.example.test/security_patch.exe
+2026-09-20 11:24:06 WARNING Authentication failure: source=10.0.2.41 user=analyst
+2026-09-20 11:27:37 WARNING Failed login for user user02 from 10.0.0.15
+2026-09-20 11:33:03 ALERT File download detected from https://files.example.test/document.pdf
+2026-09-20 11:33:32 INFO Host WS-003 completed scheduled scan
+2026-09-20 11:36:29 ALERT Suspicious connection detected from 203.0.113.10
+2026-09-20 11:38:52 INFO Web request from 10.0.0.24 to updates.example.test
+2026-09-20 11:45:26 WARNING PowerShell activity detected on WS-001 from 10.0.1.8
+2026-09-20 11:46:51 WARNING PowerShell activity detected on SRV-02 from 10.0.1.8
+2026-09-20 11:49:26 ALERT Connection from 192.0.2.18 attempted to access portal.example.test
+2026-09-20 11:51:34 ALERT Suspicious file download URL=https://updates.example.test/security_patch.exe HASH=d41d8cd98f00b204e9800998ecf8427e
+2026-09-20 11:53:36 ALERT Suspicious URL observed: https://files.example.test/document.pdf
+2026-09-20 11:59:39 ALERT Malware hash detected MD5: 098f6bcd4621d373cade4e832627b4f6
+2026-09-20 12:04:23 ALERT Suspicious email received from admin@example.test
+2026-09-20 12:06:49 ALERT Suspicious connection detected from 203.0.113.10
+2026-09-20 12:10:02 INFO User user02 logged in successfully from 10.0.2.41
+2026-09-20 12:15:23 ALERT Suspicious connection detected from 203.0.113.10
+2026-09-20 12:16:19 INFO DNS request for cdn.example.test from 10.0.0.24
+2026-09-20 12:16:55 ALERT File download detected from http://updates.example.test/update.exe
+2026-09-20 12:21:38 ALERT Suspicious connection detected from 198.51.100.14
+2026-09-20 12:27:40 WARNING PowerShell activity detected on WS-002 from 10.0.1.8
+2026-09-20 12:34:10 INFO Web request from 172.16.0.25 to cdn.example.test
+2026-09-20 12:38:32 ALERT Malware hash detected SHA256: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+2026-09-20 12:39:40 INFO Host LAPTOP-07 completed scheduled scan
+2026-09-20 12:43:40 ALERT Malware hash detected MD5: 098f6bcd4621d373cade4e832627b4f6
+2026-09-20 12:47:30 ALERT Suspicious email received from helpdesk@example.test
+2026-09-20 12:48:17 INFO Host WS-001 completed scheduled scan
+2026-09-20 12:52:03 ALERT File download detected from http://updates.example.test/update.exe
+2026-09-20 12:54:30 WARNING Multiple failed logins detected from 10.0.2.41
+2026-09-20 12:59:24 ALERT Suspicious email received from security@example.test
+2026-09-20 13:03:20 WARNING Failed login for user student from 172.16.0.25
+2026-09-20 13:05:47 INFO Email notification sent to user01@example.test
+2026-09-20 13:10:48 INFO Host WS-001 completed scheduled scan
+2026-09-20 13:16:41 ALERT Suspicious file download URL=http://updates.example.test/update.exe HASH=5d41402abc4b2a76b9719d911017c592
+2026-09-20 13:23:26 ALERT Suspicious connection detected from 203.0.113.27
+2026-09-20 13:27:14 WARNING PowerShell activity detected on SRV-01 from 10.0.2.41
+2026-09-20 13:30:59 INFO DNS request for cdn.example.test from 172.16.0.12
+2026-09-20 13:31:20 ALERT Malware hash detected SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+2026-09-20 13:35:32 ALERT Suspicious URL observed: https://files.example.test/document.pdf
+2026-09-20 13:41:48 ALERT Suspicious file download URL=https://updates.example.test/security_patch.exe HASH=d41d8cd98f00b204e9800998ecf8427e
+2026-09-20 13:46:17 INFO File access recorded for user analyst
+2026-09-20 13:49:08 WARNING Multiple failed logins detected from 10.0.0.15
+2026-09-20 13:54:24 ALERT Suspicious file download URL=http://updates.example.test/update.exe HASH=d41d8cd98f00b204e9800998ecf8427e
+2026-09-20 13:57:24 INFO DNS request for updates.example.test from 172.16.0.25
+2026-09-20 14:02:01 ALERT Connection from 203.0.113.27 attempted to access updates.example.test
+2026-09-20 14:06:41 INFO Email notification sent to security@example.test
+2026-09-20 14:07:36 WARNING Authentication failure: source=10.0.0.24 user=service_account
+2026-09-20 14:09:56 ALERT Malware hash detected SHA1: 2fd4e1c67a2d28fced849ee1bb76e7391b93eb12
+2026-09-20 14:15:07 ALERT Suspicious connection detected from 192.0.2.18
+2026-09-20 14:20:31 INFO DNS request for files.example.test from 10.0.0.24
+2026-09-20 14:24:25 INFO Web request from 192.168.1.35 to download.example.test
+2026-09-20 14:26:29 ALERT File download detected from https://download.example.test/payload.zip
+2026-09-20 14:29:04 ALERT Malware hash detected SHA1: 2fd4e1c67a2d28fced849ee1bb76e7391b93eb12
+2026-09-20 14:35:07 ALERT Suspicious URL observed: https://files.example.test/document.pdf
+2026-09-20 14:38:08 INFO Email notification sent to admin@example.test
+2026-09-20 14:42:22 WARNING Authentication failure: source=10.0.0.24 user=admin
+2026-09-20 14:47:17 WARNING Multiple failed logins detected from 192.168.1.20
+2026-09-20 14:48:44 ALERT Malware hash detected MD5: 5d41402abc4b2a76b9719d911017c592
+2026-09-20 14:51:09 ALERT Malware hash detected MD5: 098f6bcd4621d373cade4e832627b4f6
+2026-09-20 14:52:49 ALERT Suspicious email received from alert@example.test
+2026-09-20 14:59:09 ALERT Suspicious URL observed: http://portal.example.test/login
+2026-09-20 15:05:03 ALERT Connection from 203.0.113.10 attempted to access mail.example.test
+2026-09-20 15:10:06 ALERT Suspicious URL observed: https://updates.example.test/security_patch.exe
+2026-09-20 15:11:19 INFO File access recorded for user student
+2026-09-20 15:12:38 INFO Host LAPTOP-07 completed scheduled scan
+2026-09-20 15:17:41 INFO File access recorded for user student
+2026-09-20 15:20:25 WARNING Authentication failure: source=10.0.2.41 user=service_account
+2026-09-20 15:23:40 WARNING Multiple failed logins detected from 192.168.1.20
+2026-09-20 15:28:18 WARNING PowerShell activity detected on WS-003 from 10.0.0.15
+2026-09-20 15:29:25 ALERT Malware hash detected SHA256: bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2026-09-20 15:30:07 INFO User student logged in successfully from 10.0.1.8
+2026-09-20 15:35:53 ALERT Outbound connection blocked to 203.0.113.27
+2026-09-20 15:42:32 ALERT Suspicious email received from alert@example.test
+2026-09-20 15:48:53 ALERT Malware hash detected SHA256: cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+2026-09-20 15:49:17 INFO Host WS-001 completed scheduled scan
+2026-09-20 15:55:30 INFO File access recorded for user user02
+2026-09-20 15:56:08 ALERT Malware hash detected MD5: d41d8cd98f00b204e9800998ecf8427e
+2026-09-20 16:01:10 INFO File access recorded for user user01
+2026-09-20 16:02:35 INFO DNS request for download.example.test from 192.168.1.35
+2026-09-20 16:03:15 ALERT Malware hash detected MD5: 5d41402abc4b2a76b9719d911017c592
+2026-09-20 16:09:24 ALERT Suspicious connection detected from 192.0.2.77
+2026-09-20 16:10:36 ALERT Malware hash detected MD5: d41d8cd98f00b204e9800998ecf8427e
+2026-09-20 16:14:24 WARNING Authentication failure: source=10.0.1.8 user=analyst
+2026-09-20 16:16:07 WARNING Failed login for user user01 from 10.0.0.15
+2026-09-20 16:17:58 ALERT File download detected from https://files.example.test/document.pdf
+2026-09-20 16:24:00 ALERT Suspicious connection detected from 198.51.100.14
+2026-09-20 16:25:41 INFO Host SRV-01 completed scheduled scan
+2026-09-20 16:26:20 WARNING PowerShell activity detected on WS-002 from 10.0.2.41
+2026-09-20 16:30:35 ALERT Malware hash detected MD5: 098f6bcd4621d373cade4e832627b4f6
+2026-09-20 16:32:51 ALERT Suspicious connection detected from 203.0.113.10
+2026-09-20 16:38:48 WARNING Multiple failed logins detected from 172.16.0.12
+2026-09-20 16:41:56 ALERT Outbound connection blocked to 203.0.113.10
+2026-09-20 16:48:51 ALERT Outbound connection blocked to 198.51.100.14
+2026-09-20 16:54:39 ALERT Connection from 198.51.100.42 attempted to access mail.example.test
+2026-09-20 16:59:33 ALERT File download detected from http://updates.example.test/update.exe
+2026-09-20 17:00:52 ALERT Outbound connection blocked to 203.0.113.27
+2026-09-20 17:06:09 ALERT Outbound connection blocked to 203.0.113.10
+2026-09-20 17:07:24 WARNING Authentication failure: source=172.16.0.12 user=student
+2026-09-20 17:13:57 ALERT File download detected from https://files.example.test/document.pdf
+2026-09-20 17:19:27 ALERT Connection from 203.0.113.10 attempted to access portal.example.test
+2026-09-20 17:24:42 WARNING Multiple failed logins detected from 192.168.1.20
+2026-09-20 17:25:24 ALERT Malware hash detected SHA256: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+2026-09-20 17:30:10 ALERT Suspicious file download URL=https://updates.example.test/security_patch.exe HASH=d41d8cd98f00b204e9800998ecf8427e
+2026-09-20 17:36:49 WARNING Multiple failed logins detected from 192.168.1.35
+2026-09-20 17:40:49 INFO Email notification sent to helpdesk@example.test
+2026-09-20 17:43:58 WARNING Authentication failure: source=192.168.1.35 user=service_account
+2026-09-20 17:45:21 ALERT Suspicious URL observed: http://portal.example.test/login
+2026-09-20 17:48:19 ALERT Malware hash detected SHA256: bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2026-09-20 17:52:05 ALERT Suspicious URL observed: http://portal.example.test/login
+2026-09-20 17:53:30 WARNING Multiple failed logins detected from 172.16.0.12
+2026-09-20 17:59:30 ALERT Malware hash detected SHA1: 2fd4e1c67a2d28fced849ee1bb76e7391b93eb12
+2026-09-20 18:05:05 INFO Web request from 192.168.1.20 to portal.example.test
+2026-09-20 18:10:05 INFO User student logged in successfully from 192.168.1.20
+2026-09-20 18:12:12 ALERT Malware hash detected SHA256: cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+2026-09-20 18:17:42 ALERT File download detected from https://files.example.test/document.pdf
+2026-09-20 18:21:48 ALERT Suspicious email received from helpdesk@example.test
+2026-09-20 18:23:57 ALERT Connection from 198.51.100.42 attempted to access mail.example.test
+2026-09-20 18:25:43 INFO Email notification sent to soc@example.test
+2026-09-20 18:30:26 WARNING Authentication failure: source=192.168.1.35 user=admin
+2026-09-20 18:37:10 ALERT Suspicious connection detected from 192.0.2.77
+2026-09-20 18:40:08 ALERT Suspicious connection detected from 203.0.113.27
+2026-09-20 18:41:43 INFO User admin logged in successfully from 10.0.2.41
+2026-09-20 18:46:06 WARNING Authentication failure: source=10.0.0.24 user=user01
+2026-09-20 18:49:58 INFO Web request from 10.0.2.41 to mail.example.test
+2026-09-20 18:56:14 ALERT Malware hash detected SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+2026-09-20 18:59:58 ALERT Suspicious connection detected from 203.0.113.27
+2026-09-20 19:05:53 INFO User admin logged in successfully from 172.16.0.12
+2026-09-20 19:08:05 WARNING Failed login for user service_account from 172.16.0.25
+2026-09-20 19:08:50 ALERT Suspicious file download URL=https://download.example.test/payload.zip HASH=5d41402abc4b2a76b9719d911017c592
+2026-09-20 19:13:03 INFO File access recorded for user user01
+2026-09-20 19:19:04 ALERT Connection from 192.0.2.18 attempted to access files.example.test
+2026-09-20 19:22:06 ALERT Suspicious email received from alert@example.test
+2026-09-20 19:28:34 ALERT Connection from 198.51.100.42 attempted to access files.example.test
+2026-09-20 19:32:42 WARNING Failed login for user service_account from 172.16.0.25
+2026-09-20 19:36:52 ALERT Outbound connection blocked to 203.0.113.27
+2026-09-20 19:42:38 ALERT Outbound connection blocked to 192.0.2.18
+2026-09-20 19:47:06 ALERT Suspicious connection detected from 198.51.100.14
+2026-09-20 19:51:11 INFO Email notification sent to helpdesk@example.test
+2026-09-20 19:53:57 ALERT Suspicious connection detected from 198.51.100.14
+2026-09-20 19:57:08 ALERT File download detected from http://portal.example.test/login
+2026-09-20 19:58:09 INFO File access recorded for user analyst
+2026-09-20 20:00:27 ALERT Malware hash detected SHA1: 2fd4e1c67a2d28fced849ee1bb76e7391b93eb12
+2026-09-20 20:06:48 WARNING Multiple failed logins detected from 10.0.0.24
+2026-09-20 20:10:40 ALERT Malware hash detected SHA256: bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2026-09-20 20:15:37 ALERT Suspicious email received from user01@example.test
+2026-09-20 20:16:28 WARNING Multiple failed logins detected from 172.16.0.12
+2026-09-20 20:20:07 INFO Web request from 10.0.0.15 to files.example.test
+2026-09-20 20:23:41 WARNING PowerShell activity detected on WS-001 from 192.168.1.35
+2026-09-20 20:26:33 ALERT Malware hash detected SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+2026-09-20 20:31:28 ALERT Suspicious file download URL=http://portal.example.test/login HASH=5d41402abc4b2a76b9719d911017c592
+2026-09-20 20:35:57 ALERT Suspicious connection detected from 198.51.100.14
+2026-09-20 20:40:00 WARNING PowerShell activity detected on WS-001 from 172.16.0.12
+2026-09-20 20:43:12 ALERT Malware hash detected SHA1: 2fd4e1c67a2d28fced849ee1bb76e7391b93eb12
+2026-09-20 20:47:31 INFO File access recorded for user user02
+2026-09-20 20:52:24 INFO User user01 logged in successfully from 10.0.0.15
+2026-09-20 20:53:26 ALERT Malware hash detected SHA256: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+2026-09-20 20:57:42 WARNING Failed login for user admin from 192.168.1.20
+2026-09-20 21:01:16 ALERT File download detected from https://download.example.test/payload.zip
+2026-09-20 21:05:28 ALERT File download detected from http://cdn.example.test/assets/setup.exe
+2026-09-20 21:12:17 ALERT Malware hash detected SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+2026-09-20 21:19:02 ALERT Malware hash detected SHA256: bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2026-09-20 21:20:03 WARNING PowerShell activity detected on WS-001 from 10.0.0.15
+2026-09-20 21:23:22 ALERT Suspicious connection detected from 192.0.2.77
+2026-09-20 21:24:17 INFO DNS request for updates.example.test from 10.0.2.41
+2026-09-20 21:26:19 INFO User user02 logged in successfully from 10.0.1.8
+2026-09-20 21:28:41 INFO File access recorded for user user01
+2026-09-20 21:34:43 INFO Host SRV-02 completed scheduled scan
+2026-09-20 21:36:54 ALERT Suspicious email received from helpdesk@example.test
+2026-09-20 21:39:25 ALERT Malware hash detected MD5: 5d41402abc4b2a76b9719d911017c592
+2026-09-20 21:44:55 WARNING Authentication failure: source=10.0.0.24 user=analyst
+2026-09-20 21:47:54 INFO Host SRV-02 completed scheduled scan
+2026-09-20 21:48:27 ALERT Suspicious URL observed: http://portal.example.test/login
+2026-09-20 21:54:33 ALERT Malware hash detected SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+2026-09-20 22:00:59 WARNING Multiple failed logins detected from 10.0.0.24
+2026-09-20 22:06:22 ALERT Suspicious connection detected from 203.0.113.10
+2026-09-20 22:12:38 ALERT Suspicious URL observed: https://updates.example.test/security_patch.exe
+2026-09-20 22:18:05 INFO Host SRV-02 completed scheduled scan
+2026-09-20 22:25:05 INFO DNS request for download.example.test from 172.16.0.12
+2026-09-20 22:31:03 ALERT Malware hash detected MD5: 5d41402abc4b2a76b9719d911017c592
+2026-09-20 22:35:42 ALERT File download detected from http://updates.example.test/update.exe
+2026-09-20 22:39:37 WARNING PowerShell activity detected on WS-001 from 172.16.0.12
+2026-09-20 22:43:02 ALERT Suspicious email received from helpdesk@example.test
+2026-09-20 22:44:40 ALERT Malware hash detected SHA256: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+2026-09-20 22:51:15 ALERT Connection from 192.0.2.77 attempted to access download.example.test
+2026-09-20 22:56:50 ALERT Suspicious file download URL=https://files.example.test/document.pdf HASH=098f6bcd4621d373cade4e832627b4f6
+2026-09-20 23:00:53 INFO Web request from 192.168.1.20 to download.example.test
+2026-09-20 23:03:18 INFO Email notification sent to soc@example.test
+2026-09-20 23:07:28 ALERT Suspicious connection detected from 198.51.100.42
+2026-09-20 23:12:39 WARNING Authentication failure: source=172.16.0.12 user=student
+2026-09-20 23:13:13 WARNING PowerShell activity detected on WS-003 from 10.0.1.8
+2026-09-20 23:17:42 WARNING Multiple failed logins detected from 192.168.1.35
+2026-09-20 23:20:14 ALERT File download detected from http://cdn.example.test/assets/setup.exe
+2026-09-20 23:25:39 ALERT Outbound connection blocked to 192.0.2.18
+2026-09-20 23:26:04 ALERT Connection from 203.0.113.27 attempted to access updates.example.test
+2026-09-20 23:28:27 ALERT Malware hash detected SHA256: bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2026-09-20 23:33:31 ALERT Suspicious connection detected from 192.0.2.77
+2026-09-20 23:37:54 WARNING PowerShell activity detected on SRV-01 from 10.0.0.15
+2026-09-20 23:39:01 ALERT Suspicious URL observed: https://download.example.test/payload.zip
+2026-09-20 23:42:48 ALERT Suspicious connection detected from 198.51.100.14
+2026-09-20 23:48:47 INFO Web request from 192.168.1.35 to portal.example.test
+2026-09-20 23:53:50 ALERT Connection from 198.51.100.14 attempted to access portal.example.test
+2026-09-21 00:00:31 ALERT Suspicious file download URL=http://cdn.example.test/assets/setup.exe HASH=098f6bcd4621d373cade4e832627b4f6
+2026-09-21 00:06:50 ALERT Suspicious email received from soc@example.test
+2026-09-21 00:09:46 ALERT Outbound connection blocked to 203.0.113.27
+2026-09-21 00:11:07 WARNING Multiple failed logins detected from 192.168.1.35
+2026-09-21 00:12:28 ALERT Suspicious file download URL=https://updates.example.test/security_patch.exe HASH=5d41402abc4b2a76b9719d911017c592
+2026-09-21 00:14:26 WARNING Multiple failed logins detected from 172.16.0.25
+2026-09-21 00:17:07 INFO Web request from 192.168.1.20 to updates.example.test
+2026-09-21 00:19:06 ALERT Suspicious URL observed: https://download.example.test/payload.zip
+2026-09-21 00:22:30 WARNING Failed login for user student from 10.0.0.15
+2026-09-21 00:28:52 ALERT Suspicious file download URL=https://download.example.test/payload.zip HASH=098f6bcd4621d373cade4e832627b4f6
+2026-09-21 00:29:35 INFO DNS request for files.example.test from 192.168.1.20
+2026-09-21 00:35:52 INFO File access recorded for user service_account
+2026-09-21 00:42:37 WARNING PowerShell activity detected on WS-001 from 10.0.0.15
+2026-09-21 00:47:50 ALERT Suspicious URL observed: https://files.example.test/document.pdf
+2026-09-21 00:52:15 ALERT Suspicious email received from soc@example.test
+2026-09-21 00:54:09 INFO DNS request for download.example.test from 172.16.0.25
+2026-09-21 00:55:27 INFO Email notification sent to user01@example.test
+2026-09-21 00:59:58 INFO Email notification sent to alert@example.test
+2026-09-21 01:05:40 INFO DNS request for cdn.example.test from 10.0.1.8
+2026-09-21 01:10:48 ALERT Suspicious URL observed: http://updates.example.test/update.exe
+2026-09-21 01:13:15 INFO Host SRV-02 completed scheduled scan
+2026-09-21 01:20:06 ALERT Malware hash detected SHA256: cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+2026-09-21 01:25:31 WARNING Authentication failure: source=10.0.2.41 user=user02
+2026-09-21 01:29:05 ALERT Suspicious email received from user01@example.test
+2026-09-21 01:31:57 INFO Web request from 172.16.0.12 to download.example.test
+2026-09-21 01:37:08 WARNING Authentication failure: source=10.0.0.15 user=user02
+2026-09-21 01:43:46 INFO Host WS-002 completed scheduled scan
+2026-09-21 01:49:26 WARNING Multiple failed logins detected from 192.168.1.20
+2026-09-21 01:55:24 INFO Email notification sent to security@example.test
+2026-09-21 01:57:46 WARNING Failed login for user user02 from 10.0.0.24
+2026-09-21 01:59:26 INFO User user01 logged in successfully from 172.16.0.25
+2026-09-21 02:05:38 WARNING Authentication failure: source=172.16.0.25 user=student
+2026-09-21 02:06:14 ALERT Suspicious connection detected from 198.51.100.14
+2026-09-21 02:12:35 ALERT Suspicious URL observed: https://updates.example.test/security_patch.exe
+2026-09-21 02:16:47 INFO Email notification sent to helpdesk@example.test
+2026-09-21 02:19:06 ALERT Outbound connection blocked to 192.0.2.77
+2026-09-21 02:24:27 WARNING Multiple failed logins detected from 172.16.0.12
+2026-09-21 02:25:45 ALERT Suspicious file download URL=https://download.example.test/payload.zip HASH=d41d8cd98f00b204e9800998ecf8427e
+2026-09-21 02:27:21 ALERT Outbound connection blocked to 203.0.113.27
+2026-09-21 02:28:17 INFO DNS request for cdn.example.test from 192.168.1.20
+2026-09-21 02:33:41 INFO Web request from 192.168.1.20 to portal.example.test
+2026-09-21 02:35:04 ALERT Suspicious email received from helpdesk@example.test
+2026-09-21 02:37:59 ALERT Malware hash detected SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+2026-09-21 02:42:35 ALERT Suspicious file download URL=https://files.example.test/document.pdf HASH=098f6bcd4621d373cade4e832627b4f6
+2026-09-21 02:43:36 WARNING Authentication failure: source=10.0.0.15 user=user01
+2026-09-21 02:50:12 ALERT File download detected from http://portal.example.test/login
+2026-09-21 02:52:40 INFO User admin logged in successfully from 10.0.2.41
+2026-09-21 02:58:45 INFO Web request from 10.0.0.15 to mail.example.test
+2026-09-21 03:01:22 INFO Web request from 10.0.0.15 to cdn.example.test
+2026-09-21 03:05:42 ALERT Connection from 192.0.2.77 attempted to access portal.example.test
+2026-09-21 03:08:24 WARNING Failed login for user user02 from 172.16.0.12
+2026-09-21 03:14:09 WARNING PowerShell activity detected on WS-001 from 172.16.0.25
+2026-09-21 03:17:27 ALERT Malware hash detected SHA256: bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2026-09-21 03:20:31 INFO Host WS-002 completed scheduled scan
+2026-09-21 03:23:39 ALERT Malware hash detected SHA256: cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+2026-09-21 03:28:12 ALERT Suspicious URL observed: https://updates.example.test/security_patch.exe
+2026-09-21 03:31:57 ALERT Suspicious file download URL=http://updates.example.test/update.exe HASH=098f6bcd4621d373cade4e832627b4f6
+2026-09-21 03:33:02 ALERT File download detected from http://cdn.example.test/assets/setup.exe
+2026-09-21 03:36:07 INFO Host SRV-01 completed scheduled scan
+2026-09-21 03:40:50 INFO User service_account logged in successfully from 172.16.0.25
+2026-09-21 03:44:41 INFO DNS request for cdn.example.test from 192.168.1.35
+2026-09-21 03:50:19 WARNING PowerShell activity detected on LAPTOP-07 from 172.16.0.25
+2026-09-21 03:57:08 INFO DNS request for cdn.example.test from 192.168.1.20
+2026-09-21 04:02:09 INFO File access recorded for user student
+2026-09-21 04:06:13 WARNING PowerShell activity detected on WS-001 from 10.0.0.15
+2026-09-21 04:11:55 WARNING Authentication failure: source=10.0.2.41 user=service_account
+2026-09-21 04:13:36 ALERT Suspicious URL observed: http://portal.example.test/login
+2026-09-21 04:14:03 ALERT Suspicious file download URL=https://files.example.test/document.pdf HASH=5d41402abc4b2a76b9719d911017c592
+2026-09-21 04:16:18 INFO Host SRV-01 completed scheduled scan
+2026-09-21 04:17:38 INFO File access recorded for user user01
+2026-09-21 04:24:04 ALERT Suspicious URL observed: http://portal.example.test/login
+2026-09-21 04:30:25 ALERT Outbound connection blocked to 198.51.100.42
+2026-09-21 04:34:52 WARNING PowerShell activity detected on WS-002 from 172.16.0.25
+2026-09-21 04:39:54 INFO File access recorded for user user01
+2026-09-21 04:41:51 WARNING Authentication failure: source=10.0.1.8 user=admin
+2026-09-21 04:44:32 ALERT Malware hash detected SHA256: bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2026-09-21 04:49:11 ALERT Outbound connection blocked to 203.0.113.10
+2026-09-21 04:51:55 ALERT Suspicious URL observed: http://portal.example.test/login
+2026-09-21 04:57:11 WARNING PowerShell activity detected on WS-002 from 172.16.0.25
+2026-09-21 05:02:06 WARNING PowerShell activity detected on WS-003 from 192.168.1.35
+2026-09-21 05:07:08 ALERT Suspicious file download URL=https://files.example.test/document.pdf HASH=098f6bcd4621d373cade4e832627b4f6
+2026-09-21 05:10:12 WARNING Multiple failed logins detected from 10.0.2.41
+2026-09-21 05:15:24 ALERT Malware hash detected SHA1: 2fd4e1c67a2d28fced849ee1bb76e7391b93eb12
+2026-09-21 05:22:21 ALERT Malware hash detected SHA256: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+2026-09-21 05:25:23 WARNING PowerShell activity detected on LAPTOP-07 from 172.16.0.12
+2026-09-21 05:29:00 INFO File access recorded for user user01
+2026-09-21 05:29:38 INFO File access recorded for user user02
+2026-09-21 05:35:00 ALERT File download detected from http://updates.example.test/update.exe
+2026-09-21 05:39:05 INFO Host SRV-02 completed scheduled scan
+2026-09-21 05:43:18 INFO User service_account logged in successfully from 10.0.1.8
+2026-09-21 05:47:07 INFO File access recorded for user admin
+2026-09-21 05:51:27 ALERT Outbound connection blocked to 198.51.100.14
+2026-09-21 05:57:06 ALERT Malware hash detected SHA1: 2fd4e1c67a2d28fced849ee1bb76e7391b93eb12
+2026-09-21 06:00:14 ALERT Suspicious file download URL=https://files.example.test/document.pdf HASH=098f6bcd4621d373cade4e832627b4f6
+2026-09-21 06:05:54 WARNING PowerShell activity detected on SRV-02 from 10.0.0.15
+2026-09-21 06:11:30 INFO Email notification sent to security@example.test
+2026-09-21 06:17:13 ALERT Suspicious URL observed: https://download.example.test/payload.zip
+2026-09-21 06:23:55 INFO Email notification sent to user01@example.test
+2026-09-21 06:25:05 INFO Host SRV-01 completed scheduled scan
+2026-09-21 06:26:50 ALERT Suspicious URL observed: http://updates.example.test/update.exe
+2026-09-21 06:27:33 ALERT File download detected from http://updates.example.test/update.exe
+2026-09-21 06:30:23 ALERT Malware hash detected MD5: 098f6bcd4621d373cade4e832627b4f6
+2026-09-21 06:34:23 INFO File access recorded for user analyst
+2026-09-21 06:39:14 ALERT Malware hash detected SHA256: cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+2026-09-21 06:45:23 WARNING Failed login for user analyst from 10.0.1.8
+2026-09-21 06:46:23 WARNING Authentication failure: source=172.16.0.12 user=user02
+2026-09-21 06:52:32 ALERT Suspicious connection detected from 198.51.100.42
+2026-09-21 06:57:50 INFO File access recorded for user analyst
+2026-09-21 07:02:06 ALERT Outbound connection blocked to 198.51.100.42
+2026-09-21 07:04:36 INFO User user01 logged in successfully from 192.168.1.20
+2026-09-21 07:10:42 ALERT Suspicious file download URL=https://download.example.test/payload.zip HASH=5d41402abc4b2a76b9719d911017c592
+2026-09-21 07:14:48 ALERT Malware hash detected MD5: d41d8cd98f00b204e9800998ecf8427e
+2026-09-21 07:17:41 ALERT Malware hash detected SHA256: cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+2026-09-21 07:20:09 ALERT Suspicious email received from soc@example.test
+2026-09-21 07:22:10 ALERT Malware hash detected SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+2026-09-21 07:23:24 ALERT Suspicious connection detected from 198.51.100.42
+2026-09-21 07:28:36 ALERT Malware hash detected MD5: d41d8cd98f00b204e9800998ecf8427e
+2026-09-21 07:31:27 ALERT Suspicious URL observed: http://updates.example.test/update.exe
+2026-09-21 07:37:24 ALERT Malware hash detected SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+2026-09-21 07:37:48 INFO Web request from 10.0.0.15 to files.example.test
+2026-09-21 07:44:29 WARNING PowerShell activity detected on WS-003 from 10.0.2.41
+2026-09-21 07:49:59 ALERT Malware hash detected MD5: 5d41402abc4b2a76b9719d911017c592
+2026-09-21 07:55:44 WARNING Multiple failed logins detected from 192.168.1.20
+2026-09-21 08:01:51 INFO File access recorded for user service_account
+2026-09-21 08:03:00 INFO DNS request for download.example.test from 172.16.0.25
+2026-09-21 08:03:37 INFO Web request from 192.168.1.35 to mail.example.test
+2026-09-21 08:05:04 INFO Email notification sent to soc@example.test
+2026-09-21 08:08:11 ALERT Malware hash detected SHA256: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+2026-09-21 08:10:13 INFO File access recorded for user user02
+2026-09-21 08:13:40 ALERT Connection from 192.0.2.18 attempted to access download.example.test
+2026-09-21 08:15:24 ALERT Outbound connection blocked to 198.51.100.42
+2026-09-21 08:18:15 ALERT File download detected from http://updates.example.test/update.exe
+2026-09-21 08:22:34 INFO Email notification sent to security@example.test
+2026-09-21 08:29:20 ALERT Suspicious connection detected from 192.0.2.77
+2026-09-21 08:35:50 ALERT Malware hash detected SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+2026-09-21 08:36:56 ALERT Malware hash detected SHA1: 2fd4e1c67a2d28fced849ee1bb76e7391b93eb12
+2026-09-21 08:39:31 ALERT Suspicious file download URL=http://updates.example.test/update.exe HASH=098f6bcd4621d373cade4e832627b4f6
+2026-09-21 08:42:59 ALERT Outbound connection blocked to 192.0.2.18
+2026-09-21 08:46:34 ALERT Malware hash detected MD5: 5d41402abc4b2a76b9719d911017c592
+2026-09-21 08:52:39 ALERT Suspicious connection detected from 198.51.100.42
+2026-09-21 08:53:11 WARNING Authentication failure: source=192.168.1.35 user=user02
+2026-09-21 08:55:24 INFO Email notification sent to helpdesk@example.test
+2026-09-21 08:59:41 ALERT Suspicious URL observed: https://updates.example.test/security_patch.exe
+2026-09-21 09:03:30 INFO Host WS-002 completed scheduled scan
+2026-09-21 09:04:13 INFO DNS request for download.example.test from 172.16.0.25
+2026-09-21 09:05:32 INFO Host WS-002 completed scheduled scan
+2026-09-21 09:10:27 INFO File access recorded for user user01
+2026-09-21 09:14:39 ALERT Malware hash detected MD5: d41d8cd98f00b204e9800998ecf8427e
+2026-09-21 09:21:19 ALERT Suspicious file download URL=https://files.example.test/document.pdf HASH=d41d8cd98f00b204e9800998ecf8427e
+2026-09-21 09:27:59 INFO File access recorded for user user01
+2026-09-21 09:33:54 INFO Host SRV-01 completed scheduled scan
+2026-09-21 09:39:29 ALERT Malware hash detected SHA256: bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2026-09-21 09:40:05 ALERT Malware hash detected MD5: 5d41402abc4b2a76b9719d911017c592
+2026-09-21 09:44:12 ALERT Suspicious email received from security@example.test
+2026-09-21 09:47:37 INFO Host LAPTOP-07 completed scheduled scan
+2026-09-21 09:51:05 ALERT Suspicious file download URL=https://updates.example.test/security_patch.exe HASH=098f6bcd4621d373cade4e832627b4f6
+2026-09-21 09:51:56 ALERT Malware hash detected SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+2026-09-21 09:53:53 INFO Host SRV-01 completed scheduled scan
+2026-09-21 09:54:59 WARNING Multiple failed logins detected from 10.0.0.15
+2026-09-21 09:55:44 ALERT File download detected from https://download.example.test/payload.zip
+2026-09-21 09:57:08 INFO Web request from 10.0.2.41 to updates.example.test
+2026-09-21 10:03:59 ALERT Suspicious file download URL=https://download.example.test/payload.zip HASH=d41d8cd98f00b204e9800998ecf8427e
+2026-09-21 10:06:09 ALERT Suspicious connection detected from 198.51.100.14
+2026-09-21 10:13:05 INFO File access recorded for user user02
+2026-09-21 10:13:26 ALERT Outbound connection blocked to 203.0.113.27
+2026-09-21 10:14:52 ALERT Suspicious file download URL=http://cdn.example.test/assets/setup.exe HASH=5d41402abc4b2a76b9719d911017c592
+2026-09-21 10:16:08 INFO User analyst logged in successfully from 10.0.0.15
+2026-09-21 10:19:31 ALERT Suspicious connection detected from 192.0.2.18
+2026-09-21 10:22:36 INFO User analyst logged in successfully from 192.168.1.20
+2026-09-21 10:23:22 INFO File access recorded for user service_account
+2026-09-21 10:27:17 ALERT Connection from 203.0.113.10 attempted to access mail.example.test
+2026-09-21 10:28:09 WARNING PowerShell activity detected on SRV-01 from 192.168.1.35
+2026-09-21 10:32:51 INFO Web request from 10.0.0.24 to portal.example.test
+2026-09-21 10:37:28 ALERT Suspicious connection detected from 192.0.2.18
+2026-09-21 10:38:10 ALERT Connection from 198.51.100.14 attempted to access portal.example.test
+2026-09-21 10:43:59 INFO User admin logged in successfully from 172.16.0.25
+2026-09-21 10:47:44 ALERT Malware hash detected SHA256: cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+2026-09-21 10:48:59 WARNING PowerShell activity detected on LAPTOP-07 from 172.16.0.25
+2026-09-21 10:49:56 INFO Email notification sent to soc@example.test
+2026-09-21 10:55:27 INFO File access recorded for user admin
+2026-09-21 10:56:51 ALERT Outbound connection blocked to 192.0.2.18
+2026-09-21 11:02:35 INFO Web request from 192.168.1.35 to portal.example.test
+2026-09-21 11:08:00 ALERT Connection from 198.51.100.14 attempted to access portal.example.test
+2026-09-21 11:12:38 WARNING Authentication failure: source=172.16.0.12 user=admin
+2026-09-21 11:18:57 INFO Host LAPTOP-07 completed scheduled scan
+2026-09-21 11:24:50 ALERT Suspicious file download URL=https://updates.example.test/security_patch.exe HASH=5d41402abc4b2a76b9719d911017c592
+2026-09-21 11:28:50 ALERT Suspicious email received from security@example.test
+2026-09-21 11:32:41 ALERT File download detected from https://files.example.test/document.pdf
+2026-09-21 11:36:25 ALERT Malware hash detected SHA256: cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+2026-09-21 11:37:33 ALERT File download detected from https://files.example.test/document.pdf
+2026-09-21 11:40:33 ALERT Outbound connection blocked to 198.51.100.14
+2026-09-21 11:42:11 WARNING PowerShell activity detected on WS-001 from 10.0.0.24
+2026-09-21 11:43:14 INFO Email notification sent to user01@example.test
+2026-09-21 11:44:23 ALERT Malware hash detected MD5: 5d41402abc4b2a76b9719d911017c592
+2026-09-21 11:49:27 INFO DNS request for files.example.test from 192.168.1.35
+2026-09-21 11:55:30 INFO Host SRV-01 completed scheduled scan
+2026-09-21 11:58:51 ALERT Malware hash detected SHA256: cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+2026-09-21 11:59:37 ALERT Suspicious URL observed: http://portal.example.test/login
+2026-09-21 12:02:36 ALERT Malware hash detected MD5: 5d41402abc4b2a76b9719d911017c592
+2026-09-21 12:07:51 ALERT Connection from 203.0.113.27 attempted to access cdn.example.test
+2026-09-21 12:13:47 WARNING PowerShell activity detected on WS-002 from 10.0.0.24
+2026-09-21 12:17:06 ALERT Suspicious file download URL=http://cdn.example.test/assets/setup.exe HASH=5d41402abc4b2a76b9719d911017c592
+2026-09-21 12:23:56 ALERT Outbound connection blocked to 192.0.2.18
+2026-09-21 12:26:11 ALERT Malware hash detected SHA256: cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+2026-09-21 12:33:03 WARNING Authentication failure: source=10.0.0.15 user=user02
+2026-09-21 12:38:59 ALERT Outbound connection blocked to 203.0.113.10
+2026-09-21 12:40:51 ALERT Outbound connection blocked to 192.0.2.77
+2026-09-21 12:47:41 ALERT Suspicious URL observed: http://cdn.example.test/assets/setup.exe
+2026-09-21 12:51:00 INFO User analyst logged in successfully from 10.0.1.8
+2026-09-21 12:56:09 ALERT Malware hash detected SHA1: 2fd4e1c67a2d28fced849ee1bb76e7391b93eb12
+2026-09-21 12:57:41 INFO User admin logged in successfully from 10.0.2.41
+2026-09-21 13:01:13 ALERT Malware hash detected SHA256: bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2026-09-21 13:04:27 WARNING Failed login for user student from 192.168.1.20
+2026-09-21 13:10:56 ALERT File download detected from http://portal.example.test/login
+2026-09-21 13:16:21 INFO Email notification sent to admin@example.test
+2026-09-21 13:18:00 WARNING Failed login for user user02 from 10.0.0.15
+2026-09-21 13:24:05 INFO Email notification sent to soc@example.test
+2026-09-21 13:28:11 ALERT Malware hash detected SHA256: bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2026-09-21 13:33:41 ALERT Suspicious email received from user01@example.test
+2026-09-21 13:36:20 WARNING Multiple failed logins detected from 10.0.0.24
+2026-09-21 13:39:36 ALERT Malware hash detected SHA256: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+2026-09-21 13:42:21 INFO Web request from 172.16.0.25 to files.example.test
+2026-09-21 13:48:22 ALERT Suspicious URL observed: http://updates.example.test/update.exe
+2026-09-21 13:50:34 ALERT Malware hash detected SHA1: 2fd4e1c67a2d28fced849ee1bb76e7391b93eb12
+2026-09-21 13:50:57 WARNING Multiple failed logins detected from 192.168.1.20
+2026-09-21 13:53:05 INFO File access recorded for user student
+2026-09-21 13:55:53 ALERT File download detected from http://updates.example.test/update.exe
+2026-09-21 13:56:16 WARNING PowerShell activity detected on LAPTOP-07 from 172.16.0.12
+2026-09-21 13:58:05 INFO File access recorded for user user01
+2026-09-21 14:02:57 ALERT Suspicious connection detected from 192.0.2.18
+2026-09-21 14:08:03 ALERT Malware hash detected MD5: 5d41402abc4b2a76b9719d911017c592
+2026-09-21 14:11:46 INFO DNS request for portal.example.test from 10.0.0.15
+2026-09-21 14:16:01 INFO Email notification sent to soc@example.test
+2026-09-21 14:21:15 ALERT Malware hash detected SHA256: cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+2026-09-21 14:25:02 ALERT Malware hash detected SHA256: bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2026-09-21 14:26:20 ALERT Malware hash detected SHA1: 2fd4e1c67a2d28fced849ee1bb76e7391b93eb12
+2026-09-21 14:29:26 WARNING Failed login for user user02 from 172.16.0.25
+2026-09-21 14:35:39 ALERT Malware hash detected MD5: 5d41402abc4b2a76b9719d911017c592
+2026-09-21 14:39:42 INFO Host WS-002 completed scheduled scan
+2026-09-21 14:43:45 INFO Web request from 172.16.0.12 to files.example.test
+2026-09-21 14:44:45 ALERT Malware hash detected SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+2026-09-21 14:51:26 ALERT File download detected from https://download.example.test/payload.zip
+2026-09-21 14:54:36 WARNING Failed login for user admin from 10.0.0.24
+2026-09-21 14:59:27 ALERT Connection from 203.0.113.27 attempted to access download.example.test
+2026-09-21 15:02:46 INFO File access recorded for user analyst
+2026-09-21 15:03:58 INFO File access recorded for user student
+2026-09-21 15:05:59 WARNING Failed login for user user02 from 10.0.1.8
+2026-09-21 15:12:48 INFO Email notification sent to security@example.test
+2026-09-21 15:19:43 WARNING PowerShell activity detected on SRV-01 from 172.16.0.25
+2026-09-21 15:25:51 INFO Web request from 192.168.1.35 to mail.example.test
