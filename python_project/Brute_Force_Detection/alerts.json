@@ -1,0 +1,53 @@
+[
+    {
+        "source_ip": "103.50.60.70",
+        "detection_reason": [
+            "Brute Force"
+        ],
+        "severity": "HIGH",
+        "total_failed_attempts": 60,
+        "brute_force_details": [
+            {
+                "username": "root",
+                "failed_attempts_in_window": 5,
+                "window_start": "2026-10-10 12:00:01",
+                "window_end": "2026-10-10 12:00:12"
+            }
+        ],
+        "password_spraying_details": null
+    },
+    {
+        "source_ip": "185.11.22.33",
+        "detection_reason": [
+            "Brute Force"
+        ],
+        "severity": "HIGH",
+        "total_failed_attempts": 30,
+        "brute_force_details": [
+            {
+                "username": "test",
+                "failed_attempts_in_window": 5,
+                "window_start": "2026-10-10 14:00:01",
+                "window_end": "2026-10-10 14:00:06"
+            }
+        ],
+        "password_spraying_details": null
+    },
+    {
+        "source_ip": "45.10.20.30",
+        "detection_reason": [
+            "Brute Force"
+        ],
+        "severity": "HIGH",
+        "total_failed_attempts": 80,
+        "brute_force_details": [
+            {
+                "username": "admin",
+                "failed_attempts_in_window": 5,
+                "window_start": "2026-10-10 10:00:03",
+                "window_end": "2026-10-10 10:00:12"
+            }
+        ],
+        "password_spraying_details": null
+    }
+]
