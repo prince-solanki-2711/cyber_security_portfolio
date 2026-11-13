@@ -162,7 +162,7 @@ Clone the repository and move into the project directory.
 Then run:
 
 ```bash
-python ip_repu_checker.py
+python ip_repu_check.py
 ```
 
 The program will ask:

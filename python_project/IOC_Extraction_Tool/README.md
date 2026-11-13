@@ -154,7 +154,7 @@ cd IOC_Extraction_Tool
 ### Step 3: Run the Python script
 
 ```bash
-python ioc_extractor.py
+python ioc_extraction.py
 ```
 
 ---
