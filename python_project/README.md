@@ -36,7 +36,7 @@ This tool scans a security log file and extracts common Indicators of Compromise
 
 ### 3. IP Reputation Checker
 
-**Folder:** [`ip_repuatation_checker/`](ip_reputation_checker/)
+**Folder:** [`ip_reputation_checker/`](ip_reputation_checker/)
 
 This tool accepts one or more IP addresses and checks them using the VirusTotal API. It displays available network information and threat-intelligence results, such as malicious, suspicious, harmless, and undetected counts.
 
