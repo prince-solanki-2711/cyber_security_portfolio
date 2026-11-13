@@ -109,9 +109,9 @@ No external Python libraries are required.
 ## Project Structure
 
 ```text
-IOC-Extractor/
+IOC_Extraction_Tool/
 │
-├── ioc_extractor.py
+├── ioc_extraction.py
 ├── security_logs.txt
 ├── ioc_report.txt
 └── README.md
@@ -119,7 +119,7 @@ IOC-Extractor/
 
 ### Files
 
-**`ioc_extractor.py`**
+**`ioc_extraction.py`**
 
 Main Python program that extracts the IOCs.
 
@@ -148,7 +148,7 @@ git clone <your-github-repository-link>
 ### Step 2: Open the project folder
 
 ```bash
-cd IOC-Extractor
+cd IOC_Extraction_Tool
 ```
 
 ### Step 3: Run the Python script
