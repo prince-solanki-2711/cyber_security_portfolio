@@ -10,7 +10,7 @@ The project is part of my learning journey towards a SOC Analyst role.
 
 ## What It Does
 
--   Reads login events from `ssh_logs.txt`
+-   Reads login events from `login_data.log`
 -   Checks the format of each log entry
 -   Counts failed login attempts by source IP
 -   Detects possible brute-force activity
@@ -32,7 +32,7 @@ review; it does not prove that an attack happened.
 ## Project Files
 
 -   `brute_force_detector.py` --- the Python script
--   `ssh_logs.txt` --- the sample SSH login logs
+-   `login_data.log` --- the sample SSH login logs
 -   `alerts.json` --- the alerts saved by the script
 
 ## Log Format
@@ -60,7 +60,7 @@ timestamp and IP address and skips invalid entries.
 ## How to Run
 
 1.  Install Python 3.
-2.  Keep `brute_force_detector.py` and `ssh_logs.txt` in the same
+2.  Keep `brute_force_detector.py` and `login_data.log` in the same
     folder.
 3.  Open a terminal in that folder.
 4.  Run:
