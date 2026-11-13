@@ -81,7 +81,7 @@ The actual output depends on the data inside the log file.
 ## Files in this project
 
 ```text
-failed_login_analyzer.py
+log_analyzer.py
 ```
 
 The main Python script that analyzes the log file.
@@ -109,7 +109,7 @@ Then open the project folder in the terminal.
 Run:
 
 ```bash
-python failed_login_analyzer.py
+python log_analyzer.py
 ```
 
 Make sure the path to the log file in the Python script matches the location of your `mock_auth_data.txt` file.
