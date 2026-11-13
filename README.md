@@ -21,7 +21,7 @@ I have worked on the following projects to practise Python and understand how it
 |---|---|
 | [Failed Login Analyzer](python_project/failed_login_analyzer/) | Reads sample authentication logs, finds failed login attempts, counts attempts by IP address, and highlights repeated failures. |
 | [IOC Extraction Tool](python_project/IOC_Extraction_Tool/) | Extracts indicators such as IP addresses, URLs, email addresses, and file hashes from security log files. |
-| [IP Reputation Checker](python_project/IP_repuatation%20checker/) | Checks IP address reputation using the VirusTotal API and displays available threat-intelligence information. |
+| [IP Reputation Checker](python_project/ip_reputation_checker/) | Checks IP address reputation using the VirusTotal API and displays available threat-intelligence information. |
 | [Brute Force Detection](python_project/Brute_Force_Detection/) | Analyses sample SSH login events and looks for patterns that may indicate brute-force attempts or password spraying. |
 
 These are learning projects built with sample data and, where applicable, external API information. They are intended for practice and are not presented as production security tools.
